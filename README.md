@@ -51,5 +51,4 @@ Como estou rodando no ambiente do linux, irei provisonar os comando em linux, ab
 * $ source venv/bin/activate (ativa a maquina virtual)
 * $ deactivate (desativa maquina virtual)
 
-obs: criar um arquivo .gitignore e colocar o nome da maquina virtual, desta maneira, não sera incluso quando for fazer\
-o processo de subida ao repositorio do github
+obs: criar um arquivo .gitignore e colocar o nome da maquina virtual, desta maneira, não sera incluso quando for fazer o processo de subida ao repositorio do github
