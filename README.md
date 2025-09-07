@@ -45,10 +45,14 @@ Como estou rodando no ambiente do linux, irei provisonar os comando em linux, ab
 * sudo apt install python3-pip -y , instalacao do pacote pip, caso não houver feito (opicional),
 * sudo apt install python3-venv -y , instalacao do pacote venv, responsavel para criacao da vm.
 
-- criacao da vm no terminal do vs code
+- criacao da vm no terminal do vs code\
+o caracter $ representa que o codigo devera ser digital no terminal do vs code
 
 * $ python3 -m venv myenv (cria maquina virtual)
 * $ source venv/bin/activate (ativa a maquina virtual)
 * $ deactivate (desativa maquina virtual)
 
-obs: criar um arquivo .gitignore e colocar o nome da maquina virtual, desta maneira, não sera incluso quando for fazer o processo de subida ao repositorio do github
+- instalacao do requirements.txt\
+apos a ativacao da maquina virtual (fortemente recomendado)
+
+* $ pip install -r requiremtens.txt
